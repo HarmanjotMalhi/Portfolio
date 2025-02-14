@@ -16,6 +16,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    console.log('Sending email');
 
     emailjs
       .sendForm('service_4okxwzu', 'template_r9r4q9h', form.current, 'G1ezVtjgIeNYprtOw')
@@ -31,7 +32,7 @@ const Contact = () => {
 
     return ( 
     <Container fluid id="contact">
-      <form className="form-container" onSubmit={sendEmail}>
+      <form className="form-container" onSubmit={sendEmail} ref={form}>
   <div className="form-group">
     <label htmlFor="name">Name</label>
     <input type="text" id="name" name="from_name" placeholder="Enter your name" required />
