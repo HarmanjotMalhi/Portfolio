@@ -18,9 +18,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_4okxwzu', 'template_r9r4q9h', form.current, {
-        publicKey: 'G1ezVtjgIeNYprtOw',
-      })
+      .sendForm('service_4okxwzu', 'template_r9r4q9h', form.current, 'G1ezVtjgIeNYprtOw')
       .then(
         () => {
           console.log('SUCCESS!');
@@ -33,18 +31,18 @@ const Contact = () => {
 
     return ( 
     <Container fluid id="contact">
-      <form className="form-container">
+      <form className="form-container" onSubmit={sendEmail}>
   <div className="form-group">
     <label htmlFor="name">Name</label>
-    <input type="text" id="name" placeholder="Enter your name" required />
+    <input type="text" id="name" name="from_name" placeholder="Enter your name" required />
   </div>
   <div className="form-group">
     <label htmlFor="email">Email</label>
-    <input type="email" id="email" placeholder="Enter your email" required />
+    <input type="email" id="email" name="reply_to" placeholder="Enter your email" required />
   </div>
   <div className="form-group">
     <label htmlFor="message">Message</label>
-    <textarea id="message" placeholder="Enter your message" required></textarea>
+    <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
   </div>
   <button type="submit">Send</button>
 </form>
