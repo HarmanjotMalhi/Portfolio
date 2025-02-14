@@ -16,6 +16,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    e.stopPropagation();
     console.log('Sending email');
 
     emailjs
@@ -45,7 +46,7 @@ const Contact = () => {
     <label htmlFor="message">Message</label>
     <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
   </div>
-  <button type="submit">Send</button>
+  <button type="submit" onClick={(e) => sendEmail(e)}>Send</button>
 </form>
 <Row style={{marginBottom:"150px"}}>
           <Col md={12} className="home-about-social">
