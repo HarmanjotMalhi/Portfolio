@@ -15,6 +15,7 @@ const Contact = () => {
     const form = useRef();
 
   const sendEmail = (e) => {
+    form.reset();
     e.preventDefault();
     e.stopPropagation();
     console.log('Sending email');
