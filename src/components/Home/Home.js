@@ -41,9 +41,10 @@ function Home() {
             </Col>
           </Row>
         </Container>
-        <Home2 />
-      <Contact/>
       </Container>
+
+      <Home2 />
+     <Contact/>
     </section>
   );
 }
