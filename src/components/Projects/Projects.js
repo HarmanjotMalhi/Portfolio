@@ -6,7 +6,7 @@ import chat from "../../Assets/Projects/chat-backend.jpg";
 import recipica from "../../Assets/Projects/recipe-app.webp";
 import traffic_simulator from "../../Assets/Projects/traffic-simulator.gif";
 import dns_filtering from "../../Assets/Projects/dns-filtering.png";
-import festify from "../../Assets/Projects/festifyLogo.png";
+import festify from "../../Assets/Projects/concert_animated.gif";
 
 function Projects() {
   return (
