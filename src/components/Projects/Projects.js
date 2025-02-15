@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import chat from "../../Assets/Projects/chat-backend.jpg";
-import recipica from "../../Assets/Projects/recipe-app.webp";
+import recipica from "../../Assets/Projects/recipica.gif";
 import traffic_simulator from "../../Assets/Projects/traffic-simulator.gif";
 import dns_filtering from "../../Assets/Projects/dns-filtering.png";
 import festify from "../../Assets/Projects/concert_animated.gif";
