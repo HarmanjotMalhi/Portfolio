@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.3556d65c.css",
-    "main.js": "/Portfolio/static/js/main.29b41d1f.js",
+    "main.js": "/Portfolio/static/js/main.61275f0d.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/concert_animated.gif": "/Portfolio/static/media/concert_animated.17dfbdde100140ecc61a.gif",
-    "static/media/recipica.gif": "/Portfolio/static/media/recipica.60d00eccde6cac0276c3.gif",
+    "static/media/recipica.gif": "/Portfolio/static/media/recipica.7b8a5239bc9a1054913b.gif",
     "static/media/traffic-simulator.gif": "/Portfolio/static/media/traffic-simulator.dbdc3c316ef9c663e9ee.gif",
-    "static/media/Harmanjot_Malhi_Resume.pdf": "/Portfolio/static/media/Harmanjot_Malhi_Resume.35332615f084fc39ae4a.pdf",
+    "static/media/Harmanjot_Malhi_Resume.pdf": "/Portfolio/static/media/Harmanjot_Malhi_Resume.5fd390bdd3e8de22c753.pdf",
     "static/media/home-main.svg": "/Portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/logo.png": "/Portfolio/static/media/logo.2e3b331a97c99145333a.png",
@@ -17,11 +17,11 @@
     "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Portfolio/index.html",
     "main.3556d65c.css.map": "/Portfolio/static/css/main.3556d65c.css.map",
-    "main.29b41d1f.js.map": "/Portfolio/static/js/main.29b41d1f.js.map",
+    "main.61275f0d.js.map": "/Portfolio/static/js/main.61275f0d.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3556d65c.css",
-    "static/js/main.29b41d1f.js"
+    "static/js/main.61275f0d.js"
   ]
 }
